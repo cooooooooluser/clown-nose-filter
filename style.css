@@ -1,0 +1,26 @@
+h1 {
+    font-size: 50px !important;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#save{
+    font-size: 25px !important;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+#save:hover{
+    background-color: rgb(82, 27, 4);
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 40px red;}
+    to {box-shadow: 1px 1px 40px orange;}
+}
